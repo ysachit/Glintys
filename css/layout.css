@@ -1,0 +1,160 @@
+@charset "utf-8";
+/* CSS Document */
+html,body
+ {
+	 margin:0px;
+	 padding:0px;
+	 height:100%;
+	 width:100%;
+	 }
+.container
+{
+	margin:0px;
+	padding:0px;
+	}
+.mainmenu
+{
+	height:45px;
+	width:100%;
+	background-color:#0C9;
+	border:none;
+	}
+.logo
+{
+	float:left;
+	margin-top:7px;
+	margin-left:20px;
+	width:120px;
+	}
+nav input
+ {
+	 height:25px;
+	 width:25%;
+	 background-color:#FFF;
+	 border-radius:5px;
+	 float:left;
+	 margin-top:8px;
+	 margin-left:20px;
+	 }	
+.home_menu
+{
+	float:right;
+	position:relative;
+	margin-right:100px;
+	margin-top:8px;
+} 
+#profile_pic img
+{
+	float:left;
+	height:150px;
+	width:170px;
+	margin-left:35px;
+	border-radius:10px;
+	margin-top:10px;
+	
+	}	
+td
+{
+	width:330px;
+	}			
+hr
+{
+	float:left;
+	width:45%;
+	height:2px;
+	background-color:#099;
+	margin-left:30px;
+	margin-top:-30px;
+	}	
+	
+#name
+{
+	font-size:18px;
+	text-transform:uppercase;
+	color:#399;
+	text-outline:#09F;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	}		
+#status_print	
+  {
+	  height:85px;
+	  width:600px;
+	  border:double #00FF66 2px;
+	  margin-left:38px;
+	  margin-top:-25px;
+	  }
+.update_ststus_button
+{
+	margin-left:40px;
+	} 	  
+
+a {
+	color: #f0f0f0;
+	text-decoration: none;
+	margin-left:15px;
+}
+
+a:hover {
+	color: #000;
+}
+.chatboxx
+{
+	padding-left:20px;
+	background-color:#0F6;
+	border:solid #0F6;
+	color:#FFF;
+	height:25px;
+	}
+	
+.glintys
+{
+	float:left;
+	width:75%;
+	margin-left:260px;	
+	}
+.glintys p
+  {
+	  font-size:18px;
+	  color:#000;
+	  font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	  }	
+.update_profile
+{
+	display:block;
+	font-size:16px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	}
+#new_name
+{
+	display:none;
+	}
+#new_email
+{
+	display:none;
+	}
+#new_password
+{
+	display:none;
+	}		
+		
+#showEducationalEdit
+{
+	display:none;
+	border:solid #093 1px;
+	height:175px;
+	width:550px;
+	padding:10px;
+	border-radius:5px;
+	}
+
+#showEducationalEdit input
+{
+	height:40px;
+	width:200px;
+	border-radius:5px;
+	font-size:18px;
+	color:#0CF;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	}
+		
+	

@@ -1,0 +1,83 @@
+/* General styles for all menus */
+.cbp-chat {
+	background: #47a3da;
+	position: fixed;
+}
+
+.cbp-chat h3 {
+	color: #afdefa;
+	font-size:20px;
+	padding: 20px;
+	margin: 0;
+	font-weight: 300;
+	background: #0d77b6;
+}
+
+.cbp-chat a {
+	display: block;
+	color: #fff;
+	font-size: 0.8em;
+	font-weight: 300;
+}
+
+.cbp-chat a:hover {
+	background: #258ecd;
+}
+
+.cbp-chat a:active {
+	background: #afdefa;
+	color: #47a3da;
+}
+
+/* Orientation-dependent styles for the content of the menu */
+
+
+.cbp-chat-horizontal {
+	width: 200px;
+	height: 93%;
+	right: 0;
+	z-index: 1000;
+	overflow: hidden;
+	cursor:pointer;
+}
+
+.cbp-chat-horizontal h3 {
+	height: 30px;
+	width: 100%;
+	float: left;
+}
+
+.cbp-chat-horizontal a {
+	float: left;
+	width: 90%;
+	padding: 0.8em;
+}
+
+/* Horizontal menu that slides from the top or bottom */
+
+
+.cbp-chat-bottom {
+	bottom: -85%;
+}
+
+.cbp-chat-top.cbp-chat-open {
+	top: 0px;
+}
+
+.cbp-chat-bottom.cbp-chat-open {
+	bottom: 0px;
+}
+
+/* Push classes applied to the body */
+
+.cbp-chat-push {
+	overflow-x: hidden;
+	position: relative;
+	left: 0;
+}
+
+.cbp-chat,
+.cbp-chat-push {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;

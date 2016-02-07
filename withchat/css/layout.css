@@ -1,0 +1,384 @@
+@charset "utf-8";
+/* CSS Document */
+html, body, div, span,
+h1, h2, h3, h4, h5, h6, p,
+a,img,var,
+b, u, i,form, label, legend,
+table,tr, th, td 
+ {
+	 background: transparent;
+	 border: 0;
+	 margin: 0;
+	 padding: 0;
+	 outline: none;
+	 } 
+html{height: 100%;font-size: 100%;-webkit-text-size-adjust: 100%;-ms-text-size-adjust: 100%; overflow-x:hidden; overflow-y:scroll;}
+body{
+	background-color:#fff;
+	}
+.main a {color: #f0f0f0;text-decoration: none;margin-left:15px; font-size:12px;}
+.main a:hover {color: #000;}
+a{color: #066;text-decoration: none;margin-left:15px; font-size:12px;}
+.container{margin:0px;padding:0px;}
+.main{height:40px;width:100%;background-color:#0C9;border:none; position:fixed}
+.main .logo{position:relative;float:left;margin-top:7px;margin-left:40px;}
+.main .search{height:20px;width:25%;background-color:#FFF;float:left;margin-top:7px; margin-left:150px; position:relative;}	
+.main #dropdown{position:fixed;float:right;position:relative;margin-top:10px; margin-right:200px;} 
+.main li{}
+.clg
+{
+	font-size:12px;
+	color:#000;
+	}
+/*
+td{width:330px;}
+#users td{width:0px;height:0px;}*/
+
+.table2 tr
+{
+	display:block;
+	background-color:rgba(28,100,49,1);
+	color:#CCC;
+	margin-top:1px;
+	width:215px;
+	margin-left:10px;
+	height:30px;
+	padding:3px 0px 0 0px;
+	font-size:18px;
+	}
+.leftmenu{border:solid 2px #FFF; border-radius:2px;width:220px;margin-top:10px;}
+.leftmenu img{float:left;height:170px;width:180px; margin-left:10px; padding:10px 0px 0px 20px;}	
+.leftmenu{ margin-bottom:-10px;}
+.update_profile td
+{
+	width:300px;
+	}	
+.clgedit
+{
+	padding:5px;
+	width:500px;
+	margin-top:5px;
+	}				
+	
+	
+#name
+{
+	font-size:15px;
+	text-transform:uppercase;
+	color:#399;
+	text-outline:#09F;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	}		
+#status_print	
+  {
+	  height:85px;
+	  width:600px;
+	  border:double #00FF66 2px;
+	  margin-left:38px;
+	  margin-top:-25px;
+	  }  
+.chatboxx
+{
+	padding-left:20px;
+	background-color:#0F6;
+	border:solid #0F6;
+	color:#FFF;
+	height:25px;
+	}
+	
+.glintys
+{
+	float:left;
+	width:75%;
+	margin-left:260px;	
+	}
+.glintys p
+  {
+	  font-size:18px;
+	  color:#000;
+	  font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	  }	
+#new_name
+{
+	display:none;
+	}
+#new_email
+{
+	display:none;
+	}
+#new_password
+{
+	display:none;
+	}		
+		
+#showEducationalEdit
+{
+	display:none;
+	border:solid #093 1px;
+	height:175px;
+	width:550px;
+	padding:10px;
+	border-radius:5px;
+	}
+
+#showEducationalEdit input
+{
+	height:40px;
+	width:200px;
+	border-radius:5px;
+	font-size:18px;
+	color:#0CF;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	}
+#display
+{
+width:300px;
+display:none;
+float:left; 
+margin-left:-330px;
+margin-top:45px;
+background-color:#CCC;
+border-left:solid 1px #dedede;
+border-right:solid 1px #dedede;
+border-bottom:solid 1px #dedede;
+overflow:hidden;
+z-index:9999999999;
+}
+.display_box
+{
+padding:4px; 
+border-top:solid 1px #dedede; 
+font-size:12px; 
+height:30px;
+}
+.display_box:hover
+{
+background:#0C9;
+color:#FFFFFF;
+}
+
+.friend_list
+{
+	margin-left:15px;
+	margin-top:-10px;
+	}	
+	
+/* General styles for all menus */
+.cbp-spmenu {
+	background:#fff;
+	position:fixed;
+	margin-top:50px;
+}
+/* Orientation-dependent styles for the content of the menu */
+
+.cbp-spmenu-vertical {
+	height: 100%;
+	top: 0;
+	z-index: 10;
+}
+.cbp-spmenu-left a
+{
+	color:#CCC;	
+	}
+.cbp-spmenu-left a:hover
+{
+	color:#000;	
+	}
+.cbp-spmenu-right a
+{
+	color:#000;
+	text-transform:capitalize;	
+	}
+.cbp-spmenu-right a:hover
+{
+	color:#000;	
+	}	
+
+
+.cbp-spmenu-left {
+	border-right:solid #000 1px;
+	width: 240px;
+	left: 0px;
+	float:left;
+}
+
+.cbp-spmenu-right {
+	border-left:solid #000 1px;
+	width: 220px;
+	right: 0px;
+	z-index:99;
+}
+.cbp-spmenu-middle
+{
+	margin-left:240px;
+	margin-right:220px;
+	}
+	
+.cbp-spmenu-middle p
+{
+	margin-left:20px;
+	margin-top:20px;
+	}	
+.middle_side1
+{
+	float:left;
+	width:59%;
+	margin-left:1%;
+	margin-top:15px;
+	}
+.middle_side1 p
+ {
+	 font-size:18px;
+	 font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	 margin-left:20px;
+	 }
+.middle_side1 input
+{
+	width:150px;
+	}
+.update_profile
+{
+	width:100%;
+	margin-left:100px;
+	display:block;
+	font-size:16px;
+	font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	}	
+#name_search a
+{
+	margin-left:-100px;
+	}
+#name_search td
+{
+	width:100px;
+	margin-left:0px;
+	}			 	
+.middle_side2
+{
+	float:right;
+	width:38%;
+	margin-right:1%;
+	margin-top:15px;
+	}	
+.middle_side2 table
+{
+	margin-left:70px;
+	}
+.middle_side2 table input
+{
+	height:30px;
+	width:170px;
+	}	
+
+
+#dropdown,
+#dropdown ul {
+	list-style: none;
+	z-index:9999;
+}
+#dropdown {
+	float: left;
+}
+#dropdown > li {
+	float: left;
+}
+#dropdown li a {
+	display: block;
+	text-decoration: none;
+}
+#dropdown ul {
+	position: absolute;
+	display: none;
+}
+#dropdown ul li a {
+	width: 130px;
+	height:18px;
+}
+.noJS
+{
+	height:100px;
+	z-index:999999;
+	display:inline;
+	position:absolute;
+	}
+#dropdown li:hover ul.noJS {
+	display: block;
+}
+
+
+/* Main menu
+------------------------------------------*/
+#dropdown {
+	font-family: Arial;
+	font-size: 12px;
+	background: #0c9;
+}
+#dropdown > li > a {
+	color: #fff;
+	font-weight: bold;
+}
+#dropdown > li:hover > a {
+	color: #000;
+}
+
+
+/* Submenu
+------------------------------------------*/
+#dropdown ul {
+	background: #0c9;
+}
+#dropdown ul li a {
+	color: #FFF;
+}
+#dropdown ul li:hover a {
+	color:#000;
+}
+.low
+{
+	margin-left:12px;
+	margin-right:1px;
+	margin-top:-5px;	}
+.low img
+{
+	border:solid 1px #FFFFFF
+	}
+#account
+{
+	padding-top:15px;
+	padding-left:-15px;
+	}
+.notify
+{
+	margin-top:5px;
+	margin-left:20px;
+	}			
+/* Default class for an overlay */
+.popup_back {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+
+  background: #424242;
+  opacity: 0.8;
+}
+
+/* Default class for both hidden overlay and modal window */
+.pop-closed {
+  display: none;
+}
+
+/* Default class for modal window */
+.modal {
+  position: fixed;
+  z-index: 20;
+  left: 50%;
+  top: 50px;
+  width: 300px;
+  height: 300px;
+
+  background-color: #fff;
+}
+	

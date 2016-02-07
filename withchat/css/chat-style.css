@@ -1,0 +1,64 @@
+#Chat{position: fixed; right:0; bottom:10px;font-family:Arial,Helvetica,Garuda,sans-serif;font-size: 12px;color:#515151 ;width: 100%}
+#Chat #membersContent{
+    position:fixed;right: 10px; bottom:-2px ; width: 200px; height:20px; border:#ccc 1px solid ;background: #eee;
+    padding: 2px;box-shadow: 0px -1px 3px #ccc
+}
+#Chat #membersContent a{
+    position: relative; background: #fff;color:#515151;padding: 2px 0px ;display: block;border-top:1px solid #eee;width: available;
+    text-decoration: none;padding: 2px 4px;height: 28px; line-height: 28px;text-indent: 10px
+}
+#Chat #membersContent a.off{opacity: 0.5; background/*\**/: #eee\9;}
+#Chat #membersContent a:hover{background: #00B4FF;color :#fff}
+#Chat #membersContent h2{font-size: 12px; padding-top:8px;line-height: 0;text-indent: 10px; }
+#Chat #membersContent .scroll{overflow-y :auto }
+#Chat #expand, #Chat .expand{ font-size: 15px; font-weight: bold;position: absolute; right: 10px; top: 0px;cursor: pointer;}
+#Chat #expand .open,#Chat .ChatBox .expand .open{display: none;}
+#Chat .ChatBox .expand {right: 20px}
+#Chat #membersContent a img{width: 25px;height: 25px;margin: 2px 0 0 0; outline: 1px solid #eee;border:none}
+#Chat .ChatBox{width: 200px;padding: 2px 4px; background: #eee;position: relative;bottom: -2px ;border:#ccc 1px solid;box-shadow: 0px -1px 3px #ccc }
+#Chat .ChatBox textarea{overflow: auto;resize: none; width: 194px;margin: 4px auto;font-size: 11px;font-family:Arial,Helvetica,Garuda,sans-serif;border:1px solid #ccc}
+#Chat .ChatBox .logMsg{word-break: break-all;padding-top: 11px;width: 198px; background: #fff; height: 200px;margin: 0 auto;border:1px solid #ccc;overflow: hidden;position: relaive; overflow-y: auto;}
+#Chat .ChatBox h2{margin: 0;padding: 0;display: block;font-size: 12px;padding-top: 1px;padding-bottom: 2px}
+#Chat .ChatBox h2 img{z-index: 100;position: relative ;border: 1px solid #ccc;margin-right: 4px;margin-bottom: -16px;margin-left: 1px;}
+#Chat .ChatBox .closeBox{font-size: 16px; font-weight: bold;position: absolute; right: 5px; top: 0px;cursor: pointer;}
+#Chat .ChatBox h2  a{text-decoration: none; color:inherit}
+#Chat .ChatBox .state{position: absolute; left: 26px ; top :3px;z-index: 101}
+#Chat .ChatBox .state .quote,#Chat .ChatBox .state .pencil{display: none}
+#Chat .ChatBox .msgTxt{padding: 0 1px;font-size: 11px;line-height: normal}
+#Chat .ChatBox .msgTxt p{padding: 0;margin: 0;border-bottom: 1px solid #eee}
+#Chat .ChatBox .msgTxt p.you b{ color:#00B4FF}
+#Chat .ChatBox .msgTxt p.friend b{ color:#000}
+#Chat .ChatBox.off{background-color: #ccc;}
+#Chat .ChatBox.off h2 img{opacity: 0.6}
+#Chat .ChatBox.writing .state .pencil{display: block}
+#Chat .ChatBox.recive .state .quote{
+    display: block;
+    -webkit-animation: pulsate 0.5s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    animation: pulsateFF 1s ease-out;
+    animation-iteration-count: infinite; 
+    opacity: 1;
+}
+
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+50% {opacity: 1.0;}
+100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+
+@keyframes pulsateFF {
+    0% {transform: scale(0.1, 0.1); opacity: 0.0;}
+50% {opacity: 1.0;}
+100% {transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+#Chat .chatBoxWrap{float: left;  position: relative }
+#Chat .chatBoxWrap .ChatBox{ margin-right: 10px;position: absolute}
+#templateChatBox{display: none}
+.chatBoxslide{float: right;position: relative;}
+.overFlow{top: 9000px !important}
+#Chat .chatBoxWrap #slideLeft,#Chat .chatBoxWrap #slideRight{display: none;position: absolute;font-size: 18px; top:-24px;cursor: pointer;color :#00B4FF }
+#Chat .chatBoxWrap #slideLeft img,#Chat .chatBoxWrap #slideRight img{display: none}
+#Chat .chatBoxWrap #slideLeft.on img,#Chat .chatBoxWrap #slideRight.on img{display: block}
+#Chat .chatBoxWrap #slideLeft {left: 10px;}
+#Chat .chatBoxWrap #slideRight{right: -5px}
+#Chat .chatBoxWrap  .overFlowHide{display: none}

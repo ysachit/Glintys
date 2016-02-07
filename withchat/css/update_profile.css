@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+.spmenu {
+	background:#fff;
+	position:fixed;
+	margin-top:50px;
+}
+/* Orientation-dependent styles for the content of the menu */
+
+.spmenu-vertical {
+	height: 100%;
+	top: 0;
+	float:left;
+	z-index: 1000;
+}
+.spmenu-middle
+{
+	margin-top:70px;
+	margin-left:240px;
+	margin-right:220px;
+	}
+.spmenu-middle p
+{
+	height:30px;
+	display:block;
+	background-color:#066;
+	margin:10px 10px 0px 10px;
+	padding-left:10px;
+	padding-top:5px;
+	color:#FFF;
+	}	
+.a1
+{
+	float:left;
+	margin:5px 10px 10px 10px;
+	}	
+.a1 table
+{
+	border:solid 1px #000033;
+	width:375px;
+	height:200px;
+	
+	}
+.a2
+{
+	float:right;
+	margin:5px 10px 10px 10px;
+	}	
+.a2 table
+{
+	border:solid 1px #000033;
+	width:375px;
+	height:200px;
+	}
+.a3
+{
+	float:left;
+	margin:5px 10px 10px 10px;
+	}	
+.a3 table
+{
+	border:solid 1px #000033;
+	width:376px;
+	height:200px;
+	}
+.a4
+{
+	float:right;
+	margin:5px 10px 10px 10px;
+	}	
+.a4 table
+{
+	border:solid 1px #000033;
+	width:375px;
+	height:200px;
+	}		
+th
+{
+	height:30px;
+	background:#063;
+	}		
+	
+#username,#username1,#status,#relstatus,#workplace,#work12,#college,#highschool,#place,#birthplace,#dreamplace,#mobile,#email_id,#address,#sum1,#sum2,#sum3,#sum4
+{
+	display:none;
+	}
+input[type='submit']
+{
+	height:35px;
+	width:250px;
+	margin-left:50px;
+	}	

@@ -1,0 +1,130 @@
+@charset "utf-8";
+/* CSS Document */
+/* General styles for all menus */
+.cbp-spmenu {
+	position:fixed;
+	margin-top:10px;
+}
+/* Orientation-dependent styles for the content of the menu */
+
+.cbp-spmenu-vertical {
+	height: 100%;
+	top: 0;
+	float:left;
+	z-index: 1000;
+}
+.cbp-spmenu-middle
+{
+	margin-left:50px;
+	margin-right:220px;
+	}		
+.namehere
+{
+	display:block;
+	height:30px;
+	width:300px;
+	color:#FFF;
+	background-color:#0c9;
+	padding-top:3px;
+	padding-left:3px;
+	border:solid 1px #000000;
+	}
+.table3
+{
+	display:block;
+	height:300px;
+	border:solid 1px #009966;
+	overflow-y:scroll;
+	}
+input[type="text"]
+{
+	height:35px;
+	width:500px;
+	margin-left:15px;
+	}
+	
+.cbp-spmenu-middle p
+{
+	margin-top:20px;
+	}	
+.middle_side1
+{
+	float:left;
+	margin-top:55px;
+	position:!important;
+	}
+.middle_side1 p
+ {
+	 font-size:18px;
+	 font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, serif;
+	 margin-left:20px;
+	 }
+hr
+{
+	width:100%;
+	position:absolute;
+	margin-left:10px;
+	}	 
+.chat_box {
+	background: #0c9;
+	width: 450px;
+	overflow: hidden;
+	position:relative;
+	margin-top:40px;
+	z-index:9;
+	margin-left:10px;
+}
+.chat_box .header{
+	padding: 5px 3px 5px 5px;
+	font: 11px 'lucida grande', tahoma, verdana, arial, sans-serif;
+	font-weight: bold;
+	color:#fff;
+	border: 1px solid rgba(0, 39, 121, .76);
+	border-bottom:none;
+	cursor: pointer;
+}
+.chat_box .header:hover{
+	background-color: #0c9;
+}
+.chat_box .message_box {
+	background: #FFFFFF;
+	height: 400px;
+	overflow:auto;
+	border: 1px solid #CCC;
+}
+.chat_msg{
+	margin-bottom: 10px;
+	display: block;
+	border-bottom: 1px solid #F3F3F3;
+	padding: 0px 5px 5px 5px;
+	font: 11px 'lucida grande', tahoma, verdana, arial, sans-serif;
+	color:#7C7C7C;
+}
+.message_box:last-child {
+	border-bottom:none;
+}
+time{
+	font: 11px 'lucida grande', tahoma, verdana, arial, sans-serif;
+	font-weight: normal;
+	float:right;
+	color: #D5D5D5;
+}
+.chat_msg .username{
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+.user_info input {
+	width: 94%;
+	height: 25px;
+	margin-top:5px;
+	border: 1px solid #CCC;
+	border-top: none;
+	color:#000;
+	background:#000;
+	padding: 1px 0px 0px 2px;
+	font: 12px 'lucida grande', tahoma, verdana, arial, sans-serif;
+}
+.chat_msg .username{
+	font-weight: bold;
+	display: block;
+}

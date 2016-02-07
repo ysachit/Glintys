@@ -1,0 +1,12 @@
+@charset "utf-8";
+/* CSS Document */
+html,body,b,a
+{
+	padding:0;
+	margin:0;
+	}
+body{ background:#EEE; font-size:100%; overflow-x:hidden; overflow-y:scroll;}
+.container{}
+.main{ height:50px; position:absolute; background-color:#0C9; width:100%;}
+.main img{ position:fixed; padding-left:25px; padding-top:8px;}	
+

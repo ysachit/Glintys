@@ -1,0 +1,92 @@
+/* General styles for all menus */
+.cbp-spmenu {
+	background:#FFF;
+	position: fixed;
+	margin-top:45px;
+}
+/* Orientation-dependent styles for the content of the menu */
+
+.cbp-spmenu-vertical {
+	height: 100%;
+	top: 0;
+	z-index: 1000;
+}
+.cbp-spmenu a
+{
+	color:#0F3;	
+	}
+.cbp-spmenu a:hover
+{
+	color:#000;	
+	}
+
+
+/* Vertical menu that slides from the left or right */
+
+.cbp-spmenu-left {
+	border-right:solid #000 1px;
+	width: 240px;
+	left: 0px;
+}
+
+.cbp-spmenu-right {
+	border-left:solid #000 1px;
+	width: 220px;
+	right: 0px;
+}
+
+.cbp-spmenu-left.cbp-spmenu-open {
+	left: -240px;
+}
+
+.cbp-spmenu-right.cbp-spmenu-open {
+	right: -220px;
+}
+/* Transitions */
+
+.cbp-spmenu,
+.cbp-spmenu-push {
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+
+/* Example media queries */
+
+@media screen and (max-width: 55.1875em){
+
+	.cbp-spmenu-horizontal {
+		font-size: 75%;
+		height: 110px;
+	}
+
+	.cbp-spmenu-top {
+		top: -110px;
+	}
+
+	.cbp-spmenu-bottom {
+		bottom: -110px;
+	}
+
+}
+
+@media screen and (max-height: 26.375em){
+
+	.cbp-spmenu-vertical {
+		font-size: 90%;
+		width: 190px;
+	}
+
+	.cbp-spmenu-left,
+	.cbp-spmenu-push-toleft {
+		left: -190px;
+	}
+
+	.cbp-spmenu-right {
+		right: -190px;
+	}
+
+	.cbp-spmenu-push-toright {
+		left: 190px;
+	}
+}
